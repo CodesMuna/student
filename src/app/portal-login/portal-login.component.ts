@@ -4,11 +4,10 @@ import { Router } from '@angular/router';
 import { PortalService } from '../portal.service';
 
 @Component({
-  selector: 'app-portal-login',
-  standalone: true,
-  imports: [ReactiveFormsModule],
-  templateUrl: './portal-login.component.html',
-  styleUrl: './portal-login.component.css'
+    selector: 'app-portal-login',
+    imports: [ReactiveFormsModule],
+    templateUrl: './portal-login.component.html',
+    styleUrl: './portal-login.component.css'
 })
 export class PortalLoginComponent {
 

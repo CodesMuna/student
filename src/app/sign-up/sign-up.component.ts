@@ -13,19 +13,18 @@ import { PortalService } from '../portal.service';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-sign-up',
-  standalone: true,
-  imports: [FormsModule, CommonModule, MatListModule, ReactiveFormsModule, CommonModule, MatFormFieldModule, MatDatepickerModule,MatNativeDateModule,MatSelectModule,
-    MatInputModule,  FormsModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule,
-    AsyncPipe,
-    MatDatepickerModule,
-    MatSelectModule],
-  templateUrl: './sign-up.component.html',
-  styleUrl: './sign-up.component.css'
+    selector: 'app-sign-up',
+    imports: [FormsModule, CommonModule, MatListModule, ReactiveFormsModule, CommonModule, MatFormFieldModule, MatDatepickerModule, MatNativeDateModule, MatSelectModule,
+        MatInputModule, FormsModule,
+        ReactiveFormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatButtonModule,
+        AsyncPipe,
+        MatDatepickerModule,
+        MatSelectModule],
+    templateUrl: './sign-up.component.html',
+    styleUrl: './sign-up.component.css'
 })
 export class SignUpComponent {
   private datePipe = inject(DatePipe);

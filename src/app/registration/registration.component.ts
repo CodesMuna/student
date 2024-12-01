@@ -15,21 +15,20 @@ import {MatRadioModule} from '@angular/material/radio';
 import { PortalService } from '../portal.service';
 
 @Component({
-  selector: 'app-registration',
-  standalone: true,
-  providers: [PortalService, provideNativeDateAdapter(), ],
-  imports: [ MatStepperModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule,
-    AsyncPipe,
-    MatDatepickerModule,
-    MatSelectModule,
-    MatRadioModule],
-  templateUrl: './registration.component.html',
-  styleUrl: './registration.component.css'
+    selector: 'app-registration',
+    providers: [PortalService, provideNativeDateAdapter(),],
+    imports: [MatStepperModule,
+        FormsModule,
+        ReactiveFormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatButtonModule,
+        AsyncPipe,
+        MatDatepickerModule,
+        MatSelectModule,
+        MatRadioModule],
+    templateUrl: './registration.component.html',
+    styleUrl: './registration.component.css'
 })
 export class RegistrationComponent implements OnInit{
   private _formBuilder = inject(FormBuilder);

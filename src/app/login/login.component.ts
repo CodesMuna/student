@@ -12,11 +12,10 @@ import { EnrollmentProceduresComponent } from '../enrollment-procedures/enrollme
 
 
 @Component({
-  selector: 'app-login',
-  standalone: true,
-  imports: [RouterModule, FormsModule, ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatIconModule, MatButtonModule],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+    selector: 'app-login',
+    imports: [RouterModule, FormsModule, ReactiveFormsModule, MatFormFieldModule, MatInputModule, MatIconModule, MatButtonModule],
+    templateUrl: './login.component.html',
+    styleUrl: './login.component.css'
 })
 export class LoginComponent {
   sid: any;

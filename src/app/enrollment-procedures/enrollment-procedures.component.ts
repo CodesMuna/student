@@ -3,11 +3,10 @@ import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { MatListModule } from '@angular/material/list';
 
 @Component({
-  selector: 'app-enrollment-procedures',
-  standalone: true,
-  imports: [MatDialogModule, MatListModule ],
-  templateUrl: './enrollment-procedures.component.html',
-  styleUrl: './enrollment-procedures.component.css'
+    selector: 'app-enrollment-procedures',
+    imports: [MatDialogModule, MatListModule],
+    templateUrl: './enrollment-procedures.component.html',
+    styleUrl: './enrollment-procedures.component.css'
 })
 export class EnrollmentProceduresComponent {
 
