@@ -1,0 +1,22 @@
+.mat-stepper-horizontal {
+    margin-top: 8px;
+  }
+  
+  .mat-mdc-form-field {
+    margin-top: 16px;
+  }
+
+  .long-input {
+    width: 300px; /* Set the desired width */
+}
+
+::ng-deep .disable-stepper-nav .mat-step-header {
+  pointer-events: none;
+}
+
+/* Optional: To make it responsive */
+@media (max-width: 100px) {
+    .long-input {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
